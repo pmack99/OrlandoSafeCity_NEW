@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Orlando Safe City</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" >
+
+ 
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Libre+Franklin" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+  
+
+
+</head>
+
+<body>
+  <div class="wrapper" id="wrapper">
+    <header>
+      <div class="banner row" id="banner">
+        <div class="parallax text-center" style="background-image: url(images/orlando.jpg);">
+          <div class="parallax-pattern-overlay">
+            <div class="container text-center" style="height:500px;padding-top:170px;">
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!--about us-->
+    <section class="aboutus" id="aboutus">
+
+        <div class="heading text-center">
+          <br>
+          <h2>Orlando Safe City</h2>
+          <h3>This is the resource for you to find out of your new place in Orlando is safe! </h3>
+        </div>
+
+      </section>
+         
+ 
+
+            <div class="col-9">
+                   <div id="map"> </div>
+            </div>
+
+            <div id="floating-panel">
+                <input id="address" type="textbox" size="35" value="">
+                <input id="submit" type="button" value="Geocode">
+          </div>
+
+
+          <div class="container">
+          
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="homicide">
+                <label class="form-check-label" for="inlineCheckbox1">Homicide</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="theft">
+                <label class="form-check-label" for="inlineCheckbox2">Theft</label>
+              </div>
+              <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="burglary">
+                  <label class="form-check-label" for="inlineCheckbox3">Burglary</label>
+                </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="robbery">
+                <label class="form-check-label" for="inlineCheckbox3">Robbery</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="vehicle">
+                <label class="form-check-label" for="inlineCheckbox4">Vehicle Theft</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="assault">
+                <label class="form-check-label" for="inlineCheckbox5">Assault</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="narcotics">
+                <label class="form-check-label" for="inlineCheckbox6">Narcotics</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="neighbors">
+                <label class="form-check-label" for="inlineCheckbox7">Neighborhoods</label>
+              </div>
+            
+          </div>
+        
+        
+      
+    
+
+
+
+
+
+
+
+    <!--skills-->
+    <section class="specialties" id="specialties">
+
+    </section>
+
+
+    <!--portfolio-->
+    <section class="gallery" id="gallery">
+  
+    </section>
+
+    <!--education-->
+    <section class="feedback" id="feedback">
+
+ 
+    </section>
+
+    <!--education-->
+    <section class="contact" id="contact">
+
+    </section>
+
+    <!--footer-->
+    <section class="footer" id="footer">
+      <p class="text-center">
+        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+      </p>
+
+      </div>
+    </section>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/modernizr.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/menustick.js"></script>
+  <script src="js/parallax.js"></script>
+  <script src="js/easing.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/masonry.js"></script>
+  <script src="js/imgloaded.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/colorfinder.js"></script>
+  <script src="js/gridscroll.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/common.js"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
+  <script type="text/javascript">
+    jQuery(function($) {
+      $(document).ready(function() {
+        //enabling stickUp on the '.navbar-wrapper' class
+        $('.navbar-wrapper').stickUp({
+          parts: {
+            0: 'banner',
+            1: 'aboutus',
+            2: 'specialties',
+            3: 'gallery',
+            4: 'feedback',
+            5: 'contact'
+          },
+          itemClass: 'menuItem',
+          itemHover: 'active',
+          topMargin: 'auto'
+        });
+      });
+    });
+  </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXBh0Pf9RVhVuXh6YzaTHZJPDx_LSQgB0&callback=initMap"
+  async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+</body>
+
+</html>
