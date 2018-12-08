@@ -9,9 +9,7 @@
     var bMarker;
 
     var markers = {
-      // Contains all of the homicide markers.
       homicide: [],
-      // Contains all of the theft markers.
       theft: [],
       robbery: [],
       vehicle: [],
