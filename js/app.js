@@ -19,6 +19,7 @@
     };
 
     var laBoundaries;
+    var autocomplete;
 
 
 
@@ -28,8 +29,13 @@
         center: { lat: 28.5383, lng: -81.3792 }
       });
 
+      var autocomplete = new google.maps.places.Autocomplete(address);
+      autocomplete.bindTo('bounds', map);
+      autocomplete.setFields(
+        ['address_components', 'geometry', 'icon', 'name']);
+
       var geocoder = new google.maps.Geocoder();
-      document.getElementById('submit').addEventListener('click', function () {
+      document.getElementById('button').addEventListener('click', function () {
         geocodeAddress(geocoder, map);
 
       });
@@ -37,9 +43,9 @@
 
     }
 
-
     function geocodeAddress(geocoder, resultsMap) {
       var address = document.getElementById('address').value;
+      console.log(address);
       geocoder.geocode({ 'address': address }, function (results, status) {
         if (status === 'OK') {
           resultsMap.setCenter(results[0].geometry.location);
