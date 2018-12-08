@@ -71,136 +71,36 @@ img {max-width: 100%;}
 }
 
 #map{
-	height:400px;
+	height:600px;
 	margin-right: 20px;
 	border: #777 1pt solid;
 }
 
-
-
-/* Example media queries (reduce number of columns and change slideshow layout) */
-@media screen and (max-width:60em) {
-	/* responsive columns;see "Element sizing" on http://masonry.desandro.com/options.html */
-	.grid li {
-			width:33.3%;
-	}
-	.slideshow li {
-			width:100%;
-			height:100%;
-			top:0;
-			left:0;
-			margin:0;
-	}
-	.slideshow li figure img {
-			width:auto;
-			margin:0 auto;
-			max-width:100%;
-	}
-	.slideshow nav span,.slideshow nav span.nav-close {
-			font-size:1.8em;
-			padding:0.3em;
-	}
-	.info-keys {
-			display:none;
-	}
+.top{
+	height:300px;
+	background-color: whitesmoke;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding:10px;
 }
-@media screen and (max-width:35em) {
-	.grid li {
-			width:50%;
-	}
-}
-@media screen and (max-width:24em) {
-	.grid li {
-			width: 100%;
-	}
+.bottom{
+	height:300px;
+	background-color:whitesmoke;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding:10px;
 }
 
-
-@media screen and (min-width:768px) {
-	input.contact.col-md-6 {
-		width: 48.5%;
-	}
-}
-/* --- Footer --- */
-.footer {
-	background:whitesmoke ;
-	margin-top:120px;
-	position:relative;
-	margin-right:-15px;
-}
-.footer .container {
-	padding:60px 0 20px;
-}
-.footer ul {
-	margin:0 auto;
-	margin-bottom:30px;
-	margin-top:10px;
-	text-align:center;
-	list-style-type:none;
-	padding-left:0;
-}
-.footer ul li {
-	display:inline-block;
-	text-align:center;
-	background:rgba(0,0,0,0.2);
-	color:#ffffff;
-	line-height:45px;
-	margin:0 4px 0px;
-	width:45px !important;
-	height:45px !important;
-		-webkit-border-radius:3px;
-	border-radius:3px;
-}
-.footer ul li:hover {
-	background:#2a2a2a;
-}
-.footer ul li:hover	a {
-	color:#fff;
-}
-.footer ul li a {
-	color:#fff;
-	width:42px !important;
-	height:42px !important;
-}
-.footer ul li a i {
-	line-height:45px;
-	color:#fff;
-}
-.footer p {
-	color:#fff;
-	font-size:13px;
-	line-height:24px;
-	font-weight:300;
-	text-align:center;
-	text-transform:uppercase;
-}
-.gototop {
-	display:inline-block;
-	width:60px;
-	height:60px;
-	background:#fff;
-	position:absolute;
-	margin-left:-30px;
-	top:-35px;
-	border-radius:50%;
-}
-.gototop i {
-	color:#92DD03 ;
-	line-height:70px;
-}
-.footer a,.footer a:hover {
-	color:#fff;
-}
-.credits {
-    text-align: center;
+.right{
+	margin-left: 2px;
 }
 
-
-
-
-
-  html, body {
+html, body {
 	height: 100%;
 	margin: 5px;
 	padding: 5px;
   }
+
+
+  
+

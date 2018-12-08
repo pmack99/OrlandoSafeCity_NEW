@@ -11,6 +11,7 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
  
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Libre+Franklin" rel="stylesheet">
 
@@ -86,28 +87,74 @@
                 <input class="form-check-input" type="checkbox" id="neighbors">
                 <label class="form-check-label" for="inlineCheckbox7">Neighborhoods</label>
               </div>
+
+              <div id="search" class = "form-check form-check-inline" >
+                  <input id="address" type="textbox" size="20" value="Enter address">
+                  <input id="submit" type="button" value="Geocode">
+                </div>
             </div>
-            <div id="search">
-                <input id="address" type="textbox" size="35" value="">
-                <input id="submit" type="button" value="Geocode">
-              </div>
+
  
             </div>
        </div>
       
-    
+  <br>
+ <div class="container-fluid">
+    <div class="card-deck">
+        <div class="card">
+
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+  </div>
+  <hr>
+<br>
+  <div class="heading text-center">
+      <h3>How does the 2017 crime data from Orlando stack up against other cities in Florida?</h3>
+    </div>
 
 
+    <!--chart js -->
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 top" id="orlandoChart1">
+            Orlando crimes
+          </div>
+          <div class="col-md-6 top right" id="orlandoChart2">
+              Orlando theft / population
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 bottom" id="floridaChart1">
+            Other City crimes
+          </div>
+          <div class="col-md-6 bottom right" id="floridaChart2">
+            Other city theft /population
+          </div>
 
-
-
-
-
-    <!--skills-->
-    <section class="specialties" id="specialties">
-
-    </section>
-
+        </div>
+      </div>
 
 
     <!--footer-->
@@ -125,12 +172,9 @@
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/parallax.js"></script>
-
-  
-
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_DEpDpIsPJFO4wxpCxjr6cJu20USSmAw&callback=initMap"
   async defer></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
 
 
