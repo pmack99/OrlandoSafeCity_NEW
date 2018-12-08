@@ -1,6 +1,6 @@
 
 body {
-	font-family: 'Libre Franklin', sans-serif;
+	font-family: 'Scope One', serif;
 	font-size:18px;
 	line-height:1.7;
 	color:#777;
@@ -10,7 +10,6 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
 	color:#333;
-	line-height:1.4;
 	font-weight:600;
 }
 
@@ -19,18 +18,7 @@ a,a:hover {
 	text-decoration: none;
 }
 img {max-width: 100%;}
-/* --- Menu --- */
-.isFixed {
-	left:0px;
-	width:100%;
-}
 
-
-}
-@media (max-width: 655px) {
-	.collapse {background: #333;}
-	.navbar.navbar-inverse.navbar-static-top a {padding: 15px 16px;line-height: 15px;font-size: 13px;}
-}
 
 
 
@@ -58,16 +46,15 @@ img {max-width: 100%;}
 
 .heading h2 {
 	font-weight:700;
-	font-family: 'Abril Fatface', cursive;
-	font-size:55px;
+	font-family: 'Lora', serif;
+	font-size:60px;
 	color:#333;
 	margin:0;
 	padding:5px;
 }
 
 .heading h3 {
-	font-size:17px;
-	line-height:2;
+	font-size:15px;
 }
 
 #map{
@@ -92,7 +79,7 @@ img {max-width: 100%;}
 }
 
 .right{
-	margin-left: 2px;
+	margin-left: 10px;
 }
 
 html, body {
@@ -101,6 +88,16 @@ html, body {
 	padding: 5px;
   }
 
+.footer{
+	height:100px;
+	width: 100%;
+	background-color: whitesmoke;
 
+}
+
+.footer p{
+font-size: 15px;
+text-align: center;
+}
   
 
