@@ -56,7 +56,6 @@ img {max-width: 100%;}
 	
 }
 
-	
 .heading h2 {
 	font-weight:700;
 	font-family: 'Abril Fatface', cursive;
@@ -73,7 +72,10 @@ img {max-width: 100%;}
 
 #map{
 	height:400px;
+	margin-right: 20px;
+	border: #777 1pt solid;
 }
+
 
 
 /* Example media queries (reduce number of columns and change slideshow layout) */
@@ -113,14 +115,7 @@ img {max-width: 100%;}
 	}
 }
 
-.error input,input.error,.error textarea,textarea.error {
-	background-color:#ffffff;
-	border:1px solid red !Important;
-	-webkit-transition:border linear 0.2s,box-shadow linear 0.2s;
-	-moz-transition:border linear 0.2s,box-shadow linear 0.2s;
-	-o-transition:border linear 0.2s,box-shadow linear 0.2s;
-	transition:border linear 0.2s,box-shadow linear 0.2s;
-}
+
 @media screen and (min-width:768px) {
 	input.contact.col-md-6 {
 		width: 48.5%;
@@ -200,34 +195,7 @@ img {max-width: 100%;}
     text-align: center;
 }
 
-blockquote {
-	font-style:italic;
-	margin:0 0 0px 0;
-	padding:20px 70px 10px;
-	position:relative;
-	font-size:13px;
-	border:0;
-}
-blockquote:before {
-	display:block;
-	content:"\201C";
-	font-size:120px;
-	position:absolute;
-	left:10px;
-	top:-30px;
-	color:#92DD03 ;
-	font-family:Georgia;
-}
-blockquote cite {
-	color:#92DD03 ;
-	font-size:14px;
-	display:block;
-	margin-top:5px;
-	text-align:right;
-}
-blockquote cite:before {
-	content: "\2014 \2009";
-}
+
 
 
 
