@@ -25,6 +25,7 @@
 
     function initMap() {
       map = new google.maps.Map(document.getElementById('map'), {
+        mapTypeId: google.maps.MapTypeId.SATELLITE,
         zoom: 15,
         center: { lat: 28.5383, lng: -81.3792 }
       });
